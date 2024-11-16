@@ -1,4 +1,4 @@
-# Sports Data Analysis and Machine Learning
+# Predicting NBA Player Performance Regression Analysis
 
 This repository contains the code for analyzing sports data, specifically focusing on predicting player performance metrics such as points, assists, and rebounds using machine learning models.
 
