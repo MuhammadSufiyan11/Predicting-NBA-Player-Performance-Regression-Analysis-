@@ -17,7 +17,7 @@ This repository contains the code for analyzing sports data, specifically focusi
 
 The project uses several Python libraries, which you can install using `pip`. Below is the list of dependencies required to run the code:
 
-text
+```text
 pandas
 numpy
 seaborn
