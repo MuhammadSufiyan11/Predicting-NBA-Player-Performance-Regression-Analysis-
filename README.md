@@ -1,62 +1,44 @@
-# Predicting-NBA-Player-Performance-Regression-Analysis
+# Sports Data Analysis and Machine Learning
 
-This repository contains the code for analyzing sports data and building machine learning models to predict player performance metrics like points, assists, and rebounds.
+This repository contains the code for analyzing sports data, specifically focusing on predicting player performance metrics such as points, assists, and rebounds using machine learning models.
 
-## Setup
+## Table of Contents
 
-1. Clone this repository.
-2. Install dependencies by running:
-
-   ```bash
-   pip install -r requirements.txt
-Running the Code
-Data Loading and Visualization
-Load the dataset and visualize the distribution of player stats like assists and rebounds.
-
-bash
-Copy code
-python data_loading_and_visualization.py
-Feature Engineering
-Generate new features like rolling averages and standardize the data.
-
-bash
-Copy code
-python feature_engineering.py
-Model Training and Evaluation
-Train models like Linear Regression, Ridge Regression, and Random Forest and evaluate their performance.
-
-bash
-Copy code
-python model_training.py
-Hyperparameter Tuning
-Optimize the Ridge Regression model using Grid Search.
-
-bash
-Copy code
-python hyperparameter_tuning.py
-Saving and Loading Models
-Save and load models using joblib.
-
-bash
-Copy code
-python model_saving_loading.py
-License
-This project is licensed under the MIT License.
-
-yaml
-Copy code
+- [Project Overview](#project-overview)
+- [Dependencies](#dependencies)
+- [Installation Instructions](#installation-instructions)
+- [Data Description](#data-description)
+- [Usage](#usage)
+  - [Data Loading and Visualization](#data-loading-and-visualization)
+  - [Feature Engineering](#feature-engineering)
+  - [Model Training and Evaluation](#model-training-and-evaluation)
+  - [Hyperparameter Tuning](#hyperparameter-tuning)
+  - [Saving and Loading Models](#saving-and-loading-models)
+- [License](#license)
+- [Contact](#contact)
 
 ---
 
-### Summary
-Now, each section has been separated into its own Python file with clear functionality, and a README has been added for project setup and usage. You can commit and push each section to GitHub separately, following this structure.
+## Project Overview
 
+This project involves analyzing sports data, particularly focusing on metrics such as points, assists, and rebounds. The dataset is used to train various machine learning models to predict player performance based on these statistics. The project explores:
 
+- Data visualization to better understand the distribution of statistics.
+- Feature engineering to generate useful features for predictive modeling.
+- Training and evaluating machine learning models like Linear Regression, Ridge Regression, and Random Forest.
+- Hyperparameter tuning to improve model performance.
+- Saving and loading models for future use.
 
+---
 
+## Dependencies
 
+The project uses several Python libraries, which you can install using `pip`. Below is the list of dependencies required to run the code:
 
-
-
-
-
+```text
+pandas
+numpy
+seaborn
+matplotlib
+scikit-learn
+joblib
